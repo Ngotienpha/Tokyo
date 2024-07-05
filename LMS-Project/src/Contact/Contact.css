@@ -1,0 +1,510 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.Contact {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+}
+
+.nav1 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 80px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.logo1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  width: 49px;
+  height: 30px;
+  color: black;
+}
+
+.page:hover {
+  color: rgb(64, 118, 64);
+}
+
+.site {
+  gap: 48px;
+  align-items: center;
+  display: flex;
+  padding-right: 120px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.site1 {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+
+.site1 a:hover {
+  color: orange;
+}
+
+.site-login {
+  color: black;
+}
+
+.con {
+  font-size: 15px;
+  margin-left: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.con1 {
+  font-size: 15px;
+  margin-left: 20px;
+  color: black;
+}
+
+.site-body {
+  background-color: rgb(255, 153, 0);
+  width: 100vw;
+  height: 8vw;
+}
+
+.site-body h1 {
+  color: white;
+  padding-left: 150px;
+  font-size: 50px;
+}
+
+.site2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  font-size: 15px;
+}
+
+.site2 a {
+  color: white;
+}
+
+.site2 a:hover {
+  color: black;
+}
+
+.gg-map {
+  flex-wrap: wrap;
+  display: grid;
+}
+
+.message {
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.message h2 {
+  font-size: 30px;
+  font-weight: 20px;
+}
+
+.site-gap::after {
+  content: "";
+  display: block;
+  width: 2vw;
+  height: 3px;
+  background-color: green;
+  margin-top: 10px;
+}
+
+.site3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.username h5 {
+  border: 2px solid yellow;
+  padding: 10px;
+}
+
+.username button {
+  margin-top: 20px;
+  margin-left: 560px;
+  background-color: green;
+}
+
+.username button:hover {
+  background-color: orange;
+  transition: background-color 0.7s ease;
+}
+
+.name1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.searcher {
+  border: 2px solid rgb(173, 170, 170);
+  padding: 10px;
+  background-color: white;
+  width: 40vw;
+  height: 5vh;
+}
+
+.searcher1 {
+  border: 2px solid rgb(173, 170, 170);
+  padding: 10px;
+  background-color: white;
+  width: 40vw;
+  height: 20vh;
+}
+
+.name2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.site4 {
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 25vw;
+}
+
+.site4 h2 {
+  font-size: 30px;
+  font-weight: 20px;
+}
+
+.contactUs {
+  padding-top: 30px;
+}
+
+.contactUs a {
+  color: gray;
+  font-size: 15px;
+}
+
+.site-gap1::after {
+  content: "";
+  display: block;
+  width: 25vw;
+  height: 1px;
+  background-color: rgb(168, 166, 166);
+  margin-top: 10px;
+}
+
+.site5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-body2 {
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.site6 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+}
+
+.Love {
+  background-color: #fdf6ea;
+  border-radius: 50px 50px 50px 50px;
+  padding: 6px 6px 7px 6px;
+}
+
+.site7 {
+  background-color: #f5e9d4;
+  width: 100vw;
+  height: 65vh;
+}
+
+.foot2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.site8 {
+  gap: 10px;
+  padding-left: 120px;
+  padding-top: 30px;
+  width: 20vw;
+}
+
+.site8 h6 {
+  color: gray;
+  font-size: 15px;
+}
+
+.site8 a {
+  color: green;
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+  width: 14vw;
+}
+
+.site8 a:hover {
+  background-color: green;
+  color: white;
+  transition: color, background-color 0.7s ease;
+}
+
+.site9 {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 20vw;
+}
+
+.D1 {
+  flex-wrap: wrap;
+}
+
+.D1 h4 {
+  color: green;
+  font-weight: 100;
+}
+
+.D1 a {
+  color: black;
+  font-size: 17px;
+  font-weight: 50;
+}
+
+.D1 a:hover {
+  color: orange;
+  transition: color 0.5s ease;
+}
+
+.site-gap2::after {
+  content: "";
+  display: block;
+  width: 15vw;
+  height: 1px;
+  background-color: rgb(255, 251, 213);
+}
+
+.site10 {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 20vw;
+}
+
+.quicker {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quicker a {
+  color: gray;
+  font-size: 17px;
+  font-weight: 50;
+}
+
+.quicker a:hover {
+  color: greenyellow;
+  transition: color 0.7s ease;
+}
+
+.site-gap3::after {
+  content: "";
+  display: block;
+  width: 15vw;
+  height: 1px;
+  background-color: rgb(255, 251, 213);
+  margin-top: 15px;
+}
+
+.site11 {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 15vw;
+}
+
+.contact3 {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact3 a {
+  color: gray;
+  font-size: 17px;
+  font-weight: 50;
+}
+
+.contact3 a:hover {
+  color: greenyellow;
+  transition: color 0.7s ease;
+}
+
+.site12 {
+  background-color: #838c48;
+  width: 100vw;
+  height: 13vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ended h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 50;
+  padding-left: 120px;
+}
+
+.ended {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ended a {
+  color: white;
+  font-weight: 50;
+}
+
+.ended a:hover {
+  color: orange;
+  transition: color 0.7s ease;
+}
+
+.ended1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 500px;
+}
+
+.ended1 a:hover {
+  color: white;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+.nav1 {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.site {
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.site-body h1 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.message {
+  padding-left: 20px;
+}
+
+.site2 {
+  padding-left: 20px;
+}
+
+.username button {
+  margin-left: 20px;
+}
+
+.site8,
+.site9,
+.site10,
+.site11 {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.ended h6,
+.ended a {
+  padding-left: 20px;
+}
+
+.ended1 {
+  padding-left: 20px;
+}
+}
+
+/* Styles for mobile */
+@media (max-width: 640px) {
+.nav1 {
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.site {
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.site-body h1 {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.message {
+  padding-left: 10px;
+}
+
+.site2 {
+  padding-left: 10px;
+}
+
+.username button {
+  margin-left: 10px;
+}
+
+.site8,
+.site9,
+.site10,
+.site11 {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.ended h6,
+.ended a {
+  padding-left: 10px;
+}
+
+.ended1 {
+  padding-left: 10px;
+}
+}
